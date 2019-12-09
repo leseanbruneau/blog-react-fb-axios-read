@@ -1,0 +1,20 @@
+.card {
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  border: 2px solid black;
+  margin: 50px 10px 50px 10px;
+  font-weight: bold;
+}
+
+.cardheader {
+  background-color: black;
+  color: lightgray;
+  padding: 10px; 
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cardbody {
+  padding: 20px;
+}

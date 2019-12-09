@@ -1,0 +1,22 @@
+[ {
+  "date" : "20200118",
+  "id" : 0,
+  "kdPoints" : "(10-4-2-1)",
+  "month" : "jan",
+  "raceName" : "Lecomte",
+  "trackLoc" : "Fair Grounds"
+}, {
+  "date" : "20200307",
+  "id" : 1,
+  "kdPoints" : "(50-20-10-5)",
+  "month" : "mar",
+  "raceName" : "Tampa Bay Derby",
+  "trackLoc" : "Tampa Bay Downs"
+}, {
+  "date" : "20200411",
+  "id" : 2,
+  "kdPoints" : "(100-40-20-10)",
+  "month" : "apr",
+  "raceName" : "Arkansas Derby",
+  "trackLoc" : "Oaklawn Park"
+} ]
