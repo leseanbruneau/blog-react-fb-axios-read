@@ -24,3 +24,8 @@ yarn-error.log*
 
 # axios connection - firebase path exclusion
 /src/axios-conn.js
+
+# firebase hosting config file
+.firebase/
+.firebaserc
+firebase.json

@@ -1,3 +1,36 @@
+
+Notes:
+
+1.  Setup a Google Firebase Realtime Database (https://firebase.google.com)
+2.  In Firebase Reatime Database, create calendarExample on root node
+3.  clone this github repository to local workstation
+4.  Upload src/calendar2020.json in <<firebase-database>>/calendarExample object
+5.  Copy src/axios-template.js to src/axios-conn.js
+6.  Add Firebase URL to src/axios-conn.js BaseURL variable
+7.  In project folder - npm install
+8.  In project folder - npm start
+
+If you want to host the web application on Firebase, 
+add the following commands in project folder
+(note: If using Linux, you may need to sudo these commands):
+1.  npm run build
+2.  firebase login
+3.  firebase init
+  3a:  For Firebase CLI features - choose Hosting: Configure and deploy Firebase Hosting sites
+  3b:  Associate this project directory - choose Using an existing project
+  3c:  Select default Firebase project - select project you created for this application
+  3d:  Hosting setup - change default 'public' directory name to 'build'
+  3e:  Configure as single page application - select 'y'
+4.  firebase deploy
+
+
+
+
+
+
+
+Default README.md below
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
